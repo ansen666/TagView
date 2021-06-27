@@ -352,6 +352,7 @@ public class MainActivity extends AppCompatActivity {
         selectTagList.add(new Tag("女强人"));
         selectTagList.add(new Tag("傻白甜"));
 
+
         allTagList.add(new Tag("性感"));
         allTagList.add(new Tag("白富美"));
         allTagList.add(new Tag("萝莉"));
@@ -365,5 +366,10 @@ public class MainActivity extends AppCompatActivity {
         allTagList.add(new Tag("帅哥"));
         allTagList.add(new Tag("高富帅"));
         allTagList.add(new Tag("人傻钱多"));
+
+//        for(int i=0;i<200;i++){
+//            selectTagList.add(new Tag("标签:"+(i+1)));
+//            allTagList.add(new Tag("标签:"+(i+1)));
+//        }
     }
 }
